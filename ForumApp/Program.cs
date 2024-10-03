@@ -3,6 +3,11 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+
+// Docker: Set the app to listen on port 80 and all interfaces
+builder.WebHost.UseUrls("http://0.0.0.0:80");
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
