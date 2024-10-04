@@ -1,13 +1,16 @@
-# Stage 1: Build the app
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build-env
+# Stage 1: Build and run app in development mode
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS dev-env
 WORKDIR /app
-COPY . ./
-RUN dotnet restore
-RUN dotnet publish -c Release -o out
 
-# Stage 2: Run the app
-FROM mcr.microsoft.com/dotnet/aspnet:8.0
-WORKDIR /app
-COPY --from=build-env /app/out .
+# Copy project files and restore dependencies
+COPY *.csproj ./
+RUN dotnet restore
+
+# Copy the rest of the files
+COPY . ./
+
+# Expose port 80
 EXPOSE 80
-ENTRYPOINT ["dotnet", "ForumApp.dll"]
+
+# Run the app
+ENTRYPOINT ["dotnet", "watch", "run"]
