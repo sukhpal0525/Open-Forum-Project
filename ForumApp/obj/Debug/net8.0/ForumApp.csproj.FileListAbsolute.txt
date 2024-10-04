@@ -59,3 +59,15 @@ C:/Users/user-5/Documents/GitHub/Open-Forum-Project/ForumApp/obj/Debug/net8.0/re
 /app/obj/Debug/net8.0/ForumApp.pdb
 /app/obj/Debug/net8.0/ForumApp.genruntimeconfig.cache
 /app/obj/Debug/net8.0/ref/ForumApp.dll
+C:\Users\user-5\Documents\GitHub\Open-Forum-Project\ForumApp\obj\Debug\net8.0\ForumApp.csproj.AssemblyReference.cache
+C:\Users\user-5\Documents\GitHub\Open-Forum-Project\ForumApp\obj\Debug\net8.0\ForumApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user-5\Documents\GitHub\Open-Forum-Project\ForumApp\obj\Debug\net8.0\ForumApp.AssemblyInfoInputs.cache
+C:\Users\user-5\Documents\GitHub\Open-Forum-Project\ForumApp\obj\Debug\net8.0\ForumApp.AssemblyInfo.cs
+C:\Users\user-5\Documents\GitHub\Open-Forum-Project\ForumApp\obj\Debug\net8.0\ForumApp.csproj.CoreCompileInputs.cache
+C:\Users\user-5\Documents\GitHub\Open-Forum-Project\ForumApp\obj\Debug\net8.0\ForumApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user-5\Documents\GitHub\Open-Forum-Project\ForumApp\obj\Debug\net8.0\ForumApp.RazorAssemblyInfo.cache
+C:\Users\user-5\Documents\GitHub\Open-Forum-Project\ForumApp\obj\Debug\net8.0\ForumApp.RazorAssemblyInfo.cs
+C:\Users\user-5\Documents\GitHub\Open-Forum-Project\ForumApp\obj\Debug\net8.0\ForumApp.sourcelink.json
+C:\Users\user-5\Documents\GitHub\Open-Forum-Project\ForumApp\obj\Debug\net8.0\ForumApp.dll
+C:\Users\user-5\Documents\GitHub\Open-Forum-Project\ForumApp\obj\Debug\net8.0\refint\ForumApp.dll
+C:\Users\user-5\Documents\GitHub\Open-Forum-Project\ForumApp\obj\Debug\net8.0\ForumApp.pdb
