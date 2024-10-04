@@ -4,6 +4,16 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 
+
+///////////////////// DBCONTEXT ///////////////////// 
+
+// Register the DbContext with SQLite
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+/////////////////////////////////////////////////////
+
+
 // Docker: Set the app to listen on port 80 and all interfaces
 builder.WebHost.UseUrls("http://0.0.0.0:80");
 
