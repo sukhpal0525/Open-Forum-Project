@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "/app/ForumApp.csproj": {}
+    "C:\\Users\\user-5\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\ForumApp.csproj": {}
   },
   "projects": {
-    "/app/ForumApp.csproj": {
+    "C:\\Users\\user-5\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\ForumApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/app/ForumApp.csproj",
+        "projectUniqueName": "C:\\Users\\user-5\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\ForumApp.csproj",
         "projectName": "ForumApp",
-        "projectPath": "/app/ForumApp.csproj",
-        "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/app/obj/",
+        "projectPath": "C:\\Users\\user-5\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\ForumApp.csproj",
+        "packagesPath": "C:\\Users\\user-5\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user-5\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\user-5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,6 +45,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -61,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.402/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
