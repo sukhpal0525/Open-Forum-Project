@@ -1,0 +1,16 @@
+@model Thread
+
+<h2>@Model.Title</h2>
+
+<div>
+    @foreach (var post in Model.Posts)
+    {
+        <p><strong>@post.Author.Username</strong>: @post.Content</p>
+    }
+</div>
+
+<form asp-action="Create" asp-controller="Post" method="post">
+    <textarea name="content"></textarea>
+    <input type="hidden" name="threadId" value="@Model.Id" />
+    <button type="submit">Reply</button>
+</form>
