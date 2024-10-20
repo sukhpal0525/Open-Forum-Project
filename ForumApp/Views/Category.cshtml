@@ -1,0 +1,13 @@
+@model Category
+
+<h2>@Model.Name</h2>
+<ul>
+    @foreach (var thread in Model.Threads)
+    {
+        <li>
+            <a href="@Url.Action("Thread", "Forum", new { id = thread.Id })">@thread.Title</a>
+            <span>@thread.RepliesCount replies</span>
+            <span>by @thread.Author.Username</span>
+        </li>
+    }
+</ul>
