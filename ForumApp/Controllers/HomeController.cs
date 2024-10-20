@@ -1,31 +1,38 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using ForumApp.Models;
 
-namespace ForumApp.Controllers;
-
+namespace ForumApp.Controllers
+{
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
-    {
-        _logger = logger;
-    }
-
     public IActionResult Index()
     {
-        return View();
-    }
+        // Hardcoded list of categories with dummy data
+        var categories = new List<Category>
+        {
+            new Category
+            {
+                Id = 1,
+                Name = "General Discussion",
+                Description = "Talk about anything here",
+                Threads = new List<Thread>
+                {
+                    new Thread { Id = 1, Title = "Welcome to the Forum", RepliesCount = 5, ViewsCount = 100 }
+                }
+            },
+            new Category
+            {
+                Id = 2,
+                Name = "Announcements",
+                Description = "Official announcements from the team",
+                Threads = new List<Thread>
+                {
+                    new Thread { Id = 2, Title = "Forum Rules", RepliesCount = 3, ViewsCount = 50 }
+                }
+            }
+        };
 
-    public IActionResult Privacy()
-    {
-        return View();
+        // Pass the hardcoded data to the view
+        return View(categories);
     }
-
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-    }
+}
 }
