@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user-5\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\ForumApp.csproj": {}
+    "/app/ForumApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user-5\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\ForumApp.csproj": {
+    "/app/ForumApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user-5\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\ForumApp.csproj",
+        "projectUniqueName": "/app/ForumApp.csproj",
         "projectName": "ForumApp",
-        "projectPath": "C:\\Users\\user-5\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\ForumApp.csproj",
-        "packagesPath": "C:\\Users\\user-5\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user-5\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\obj\\",
+        "projectPath": "/app/ForumApp.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/app/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user-5\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -80,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
