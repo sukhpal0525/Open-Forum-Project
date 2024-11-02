@@ -7,7 +7,7 @@
         <li>
             <a href="@Url.Action("Thread", "Forum", new { id = thread.Id })">@thread.Title</a>
             <span>@thread.RepliesCount replies</span>
-            <span>by @thread.Author.Username</span>
+            <span>by @thread.Author?.Username</span>
         </li>
     }
 </ul>
