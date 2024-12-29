@@ -3,3 +3,6 @@ build:
 
 run:
 	docker run -p 8080:80 --rm -v "$(pwd):/app" my-aspnet-app
+
+watch:
+	docker exec -it $$(docker ps -q -f ancestor=my-aspnet-app) dotnet
