@@ -15,3 +15,6 @@ logs:
 
 clean:
 	docker system prune -f
+
+rebuild:
+	docker build --no-cache -t my-aspnet-app .
