@@ -9,3 +9,6 @@ watch:
 
 stop:
 	docker stop $$(docker ps -q)
+
+logs:
+	docker logs $$(docker ps -q -f ancestor=my-aspnet-app)
