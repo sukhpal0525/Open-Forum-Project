@@ -12,3 +12,6 @@ stop:
 
 logs:
 	docker logs $$(docker ps -q -f ancestor=my-aspnet-app)
+
+clean:
+	docker system prune -f
