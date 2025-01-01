@@ -18,3 +18,6 @@ clean:
 
 rebuild:
 	docker build --no-cache -t my-aspnet-app .
+
+debug:
+	docker exec -it $$(docker ps -q -f ancestor=my-aspnet-app) /bin/bash
