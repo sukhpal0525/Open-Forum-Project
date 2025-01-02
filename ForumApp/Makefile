@@ -1,11 +1,11 @@
 build:
-	docker build -t my-aspnet-app .
+	docker build -t forumapp .
 
 run:
-	docker run -p 8080:80 --rm -v "$(pwd):/app" my-aspnet-app
+	docker run -p 8080:80 --rm -v "$(pwd):/app" forumapp
 
 watch:
-	docker exec -it $$(docker ps -q -f ancestor=my-aspnet-app) dotnet watch run
+	docker exec -it $$(docker ps -q -f ancestor=forumapp) dotnet watch run
 
 stop:
 	docker stop $$(docker ps -q)
@@ -17,7 +17,7 @@ clean:
 	docker system prune -f
 
 rebuild:
-	docker build --no-cache -t my-aspnet-app .
+	docker build --no-cache -t forumapp .
 
 debug:
-	docker exec -it $$(docker ps -q -f ancestor=my-aspnet-app) /bin/bash
+	docker exec -it $$(docker ps -q -f ancestor=forumapp) /bin/bash
