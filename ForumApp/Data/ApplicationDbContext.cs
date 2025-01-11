@@ -36,8 +36,8 @@ namespace ForumApp.Data
             );
 
             modelBuilder.Entity<User>().HasData(
-                new User { Id = 1, Username = "Admin", Role = "Moderator" },
-                new User { Id = 2, Username = "Moderator", Role = "Moderator" }
+                new User { Id = 1, Username = "Administrator", Role = UserRole.Admin },
+                new User { Id = 2, Username = "John", Role = UserRole.Member }
             );
 
             modelBuilder.Entity<Thread>().HasData(
