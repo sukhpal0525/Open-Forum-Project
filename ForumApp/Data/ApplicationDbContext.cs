@@ -18,10 +18,17 @@ namespace ForumApp.Data
                 .WithOne(p => p.Author)
                 .HasForeignKey(p => p.AuthorId);
 
+                // Map UserRole enum to string
+                modelBuilder.Entity<User>()
+                .Property(u => u.Role)
+                .HasConversion<string>()
+
+
             modelBuilder.Entity<Category>()
                 .HasMany(c => c.Threads)
                 .WithOne(t => t.Category)
                 .HasForeignKey(t => t.CategoryId);
+
 
             modelBuilder.Entity<Thread>()
                 .HasMany(t => t.Posts)
@@ -29,7 +36,7 @@ namespace ForumApp.Data
                 .HasForeignKey(p => p.ThreadId);
 
 
-            // Seed initial inserts for example data
+            // Seed Data
             modelBuilder.Entity<Category>().HasData(
                 new Category { Id = 1, Name = "General Discussion", Description = "Talk about anything here" },
                 new Category { Id = 2, Name = "Announcements", Description = "Official announcements from the team" }
