@@ -21,7 +21,7 @@ namespace ForumApp.Data
                 // Map UserRole enum to string
                 modelBuilder.Entity<User>()
                 .Property(u => u.Role)
-                .HasConversion<string>()
+                .HasConversion<string>();
 
 
             modelBuilder.Entity<Category>()
