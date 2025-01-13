@@ -9,7 +9,7 @@ public class User
     public string Username { get; set; }
     
     [Required]
-    public string Role { get; set; }  // Admin, Moderator, Member
+    public UserRole Role { get; set; }  // Admin, Moderator, Member
     
     [MaxLength(500)]
     public string? AvatarUrl { get; set; }
