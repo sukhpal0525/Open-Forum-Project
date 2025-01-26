@@ -1,2 +1,27 @@
 
 ForumApp/.vs/ForumApp/FileContentIndex/71bef017-c439-42ba-9c76-c701f50f9b73.vsidx
+*.vsidx
+*.dll
+*.exe
+.vs/Open-Forum-Project/v17/.wsuo
+.vs/Open-Forum-Project/v17/DocumentLayout.json
+.vs/slnx.sqlite
+.vs/VSWorkspaceState.json
+*.cache
+*.cs
+*.pdb
+*.exe
+*.dll
+ForumApp/bin/Debug/net8.0/ForumApp.dll
+ForumApp/bin/Debug/net8.0/ForumApp.exe
+ForumApp/bin/Debug/net8.0/ForumApp.pdb
+ForumApp/obj/Debug/net8.0/apphost.exe
+ForumApp/obj/Debug/net8.0/ForumApp.AssemblyInfo.cs
+ForumApp/obj/Debug/net8.0/ForumApp.AssemblyInfoInputs.cache
+ForumApp/obj/Debug/net8.0/ForumApp.dll
+ForumApp/obj/Debug/net8.0/ForumApp.pdb
+ForumApp/obj/Debug/net8.0/ForumApp.sourcelink.json
+ForumApp/obj/Debug/net8.0/ref/ForumApp.dll
+ForumApp/obj/Debug/net8.0/refint/ForumApp.dll
+ForumApp/obj/Release/net8.0/ForumApp.GeneratedMSBuildEditorConfig.editorconfig
+ForumApp/bin/Debug/net8.0/ForumApp.dll
