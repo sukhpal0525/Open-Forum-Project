@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sukhpal\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\ForumApp.csproj": {}
+    "C:\\Users\\user-5\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\ForumApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sukhpal\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\ForumApp.csproj": {
+    "C:\\Users\\user-5\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\ForumApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sukhpal\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\ForumApp.csproj",
+        "projectUniqueName": "C:\\Users\\user-5\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\ForumApp.csproj",
         "projectName": "ForumApp",
-        "projectPath": "C:\\Users\\Sukhpal\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\ForumApp.csproj",
-        "packagesPath": "C:\\Users\\Sukhpal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sukhpal\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\obj\\",
+        "projectPath": "C:\\Users\\user-5\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\ForumApp.csproj",
+        "packagesPath": "C:\\Users\\user-5\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user-5\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Sukhpal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user-5\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
