@@ -16,10 +16,6 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 /////////////////////////////////////////////////////////////////////////////////
 
 
-// Docker: Set the app to listen on port 80 and all interfaces
-builder.WebHost.UseUrls("http://0.0.0.0:80");
-
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
