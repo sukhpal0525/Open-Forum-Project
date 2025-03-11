@@ -107,3 +107,6 @@ ForumApp/obj/ForumApp.csproj.nuget.dgspec.json
 ForumApp/obj/ForumApp.csproj.nuget.g.props
 ForumApp/obj/project.assets.json
 ForumApp/obj/project.nuget.cache
+ForumApp/.vs/ForumApp/v17/.suo
+ForumApp/obj/Debug/net8.0/ForumApp.AssemblyInfo.cs
+ForumApp/obj/Debug/net8.0/ForumApp.AssemblyInfoInputs.cache
