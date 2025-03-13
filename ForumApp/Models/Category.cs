@@ -11,5 +11,5 @@ public class Category
     [StringLength(100)]
     public string Description { get; set; }
     
-    public List<ForumThread> Threads { get; set; } = new List<ForumThread>();
+    public List<ForumThread> ForumThreads { get; set; } = new List<ForumThread>();
 }

@@ -8,7 +8,7 @@ namespace ForumApp.Data
 
         public DbSet<User> Users { get; set; }
         public DbSet<Category> Categories { get; set; }
-        public DbSet<ForumThread> Threads { get; set; }
+        public DbSet<ForumThread> ForumThreads { get; set; }
         public DbSet<Post> Posts { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -26,7 +26,7 @@ namespace ForumApp.Data
 
 
             modelBuilder.Entity<Category>()
-                .HasMany(c => c.Threads)
+                .HasMany(c => c.ForumThreads)
                 .WithOne(t => t.Category)
                 .HasForeignKey(t => t.CategoryId);
 

@@ -32,7 +32,7 @@ namespace ForumApp.Controllers
         // Action for displaying posts in a thread
         public IActionResult Thread(int id)
         {
-            var thread = _context.Threads
+            var thread = _context.ForumThreads
                 .Include(t => t.Posts)
                 .ThenInclude(p => p.Author) // Include author of each post
                 .FirstOrDefault(t => t.Id == id);

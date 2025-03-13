@@ -1,13 +1,33 @@
 @model Category
+@{
+    ViewData["Title"] = Model.Name;
+}
 
-<h2>@Model.Name</h2>
-<ul>
-    @foreach (var thread in Model.Threads)
-    {
-        <li>
-            <a href="@Url.Action("Thread", "Forum", new { id = thread.Id })">@thread.Title</a>
-            <span>@thread.RepliesCount replies</span>
-            <span>by @thread.Author?.Username</span>
-        </li>
-    }
-</ul>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h2 class="mb-4">@Model.Name</h2>
+            @if (Model.ForumThreads != null && Model.ForumThreads.Any())
+            {
+                <ul class="list-group">
+                    @foreach (var thread in Model.ForumThreads)
+                    {
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <div>
+                                <a href="@Url.Action("Thread", "Forum", new { id = thread.Id })" class="fw-bold">
+                                    @thread.Title
+                                </a>
+                                <div class="text-muted">by @thread.Author?.Username</div>
+                            </div>
+                            <span class="badge bg-primary rounded-pill">@thread.RepliesCount replies</span>
+                        </li>
+                    }
+                </ul>
+            }
+            else
+            {
+                <div class="alert alert-info mt-3">No threads available in this category.</div>
+            }
+        </div>
+    </div>
+</div>
