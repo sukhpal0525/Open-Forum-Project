@@ -110,3 +110,7 @@ ForumApp/obj/project.nuget.cache
 ForumApp/.vs/ForumApp/v17/.suo
 ForumApp/obj/Debug/net8.0/ForumApp.AssemblyInfo.cs
 ForumApp/obj/Debug/net8.0/ForumApp.AssemblyInfoInputs.cache
+*.pdb
+*.exe
+*.dll
+*.v2
