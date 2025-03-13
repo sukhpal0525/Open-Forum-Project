@@ -8,7 +8,7 @@ namespace ForumApp.Data
 
         public DbSet<User> Users { get; set; }
         public DbSet<Category> Categories { get; set; }
-        public DbSet<Thread> Threads { get; set; }
+        public DbSet<ForumThread> Threads { get; set; }
         public DbSet<Post> Posts { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -32,9 +32,9 @@ namespace ForumApp.Data
 
 
 
-            modelBuilder.Entity<Thread>()
+            modelBuilder.Entity<ForumThread>()
                 .HasMany(t => t.Posts)
-                .WithOne(p => p.Thread)
+                .WithOne(p => p.ForumThread)
                 .HasForeignKey(p => p.ThreadId);
 
 
@@ -47,9 +47,9 @@ namespace ForumApp.Data
                 new Category { Id = 1, Name = "General Discussion", Description = "Talk about anything here" },
                 new Category { Id = 2, Name = "Announcements", Description = "Official announcements from the team" }
             );
-            modelBuilder.Entity<Thread>().HasData(
-                new Thread { Id = 1, Title = "Welcome to the Forum", RepliesCount = 5, ViewsCount = 100, CategoryId = 1, AuthorId = 1 },
-                new Thread { Id = 2, Title = "Forum Rules", RepliesCount = 3, ViewsCount = 50, CategoryId = 2, AuthorId = 2 }
+            modelBuilder.Entity<ForumThread>().HasData(
+                new ForumThread { Id = 1, Title = "Welcome to the Forum", RepliesCount = 5, ViewsCount = 100, CategoryId = 1, AuthorId = 1 },
+                new ForumThread { Id = 2, Title = "Forum Rules", RepliesCount = 3, ViewsCount = 50, CategoryId = 2, AuthorId = 2 }
             );
         }
     }

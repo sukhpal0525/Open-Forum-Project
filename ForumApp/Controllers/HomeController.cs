@@ -14,9 +14,9 @@ public class HomeController : Controller
                 Id = 1,
                 Name = "General Discussion",
                 Description = "Talk about anything here",
-                Threads = new List<Thread>
+                Threads = new List<ForumThread>
                 {
-                    new Thread { Id = 1, Title = "Welcome to the Forum", RepliesCount = 5, ViewsCount = 100 }
+                    new ForumThread { Id = 1, Title = "Welcome to the Forum", RepliesCount = 5, ViewsCount = 100 }
                 }
             },
             new Category
@@ -24,9 +24,9 @@ public class HomeController : Controller
                 Id = 2,
                 Name = "Announcements",
                 Description = "Official announcements from the team",
-                Threads = new List<Thread>
+                Threads = new List<ForumThread>
                 {
-                    new Thread { Id = 2, Title = "Forum Rules", RepliesCount = 3, ViewsCount = 50 }
+                    new ForumThread { Id = 2, Title = "Forum Rules", RepliesCount = 3, ViewsCount = 50 }
                 }
             }
         };

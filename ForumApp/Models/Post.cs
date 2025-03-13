@@ -10,7 +10,7 @@ public class Post
     public DateTime CreatedDate { get; set; }
     
     public int ThreadId { get; set; }
-    public Thread Thread { get; set; }
+    public ForumThread ForumThread { get; set; }
 
     public int AuthorId { get; set; }
     public User Author { get; set; }
