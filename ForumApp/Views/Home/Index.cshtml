@@ -1,13 +1,28 @@
 ﻿@model IEnumerable<Category>
+@{
+    ViewData["Title"] = "Forum Categories";
+}
 
-<h2>Forum Categories</h2>
-
-<ul>
-    @foreach (var category in Model)
-    {
-        <li>
-            <a href="@Url.Action("Category", "Forum", new { id = category.Id })">@category.Name</a>
-            <span>@category.Threads.Count threads</span>
-        </li>
-    }
-</ul>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h2 class="mb-4">Forum Categories</h2>
+            @foreach (var category in Model)
+            {
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a href="@Url.Action("Category", "Forum", new { id = category.Id })">
+                                @category.Name
+                            </a>
+                        </h5>
+                        <p class="card-text">@category.Description</p>
+                        <p class="card-text">
+                            <small class="text-muted">@category.Threads.Count threads</small>
+                        </p>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
