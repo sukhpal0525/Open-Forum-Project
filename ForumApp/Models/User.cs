@@ -4,12 +4,10 @@ public class User
 {
     public int Id { get; set; }
 
-    [Required]
     [MaxLength(50)]
-    public string Username { get; set; }
+    public required string Username { get; set; }
     
-    [Required]
-    public UserRole Role { get; set; }  // Admin, Moderator, Member
+    public required UserRole Role { get; set; }  // Admin, Moderator, Member
     
     [MaxLength(500)]
     public string? AvatarUrl { get; set; }

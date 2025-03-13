@@ -3,40 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\user-5\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C1310208-1269-4BE3-A4DE-3F9CEE14B8A8}|ForumApp.csproj|c:\\users\\user-5\\documents\\github\\open-forum-project\\forumapp\\models\\forumthread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1310208-1269-4BE3-A4DE-3F9CEE14B8A8}|ForumApp.csproj|solutionrelative:models\\forumthread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C1310208-1269-4BE3-A4DE-3F9CEE14B8A8}|ForumApp.csproj|c:\\users\\user-5\\documents\\github\\open-forum-project\\forumapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1310208-1269-4BE3-A4DE-3F9CEE14B8A8}|ForumApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1310208-1269-4BE3-A4DE-3F9CEE14B8A8}|ForumApp.csproj|c:\\users\\user-5\\documents\\github\\open-forum-project\\forumapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1310208-1269-4BE3-A4DE-3F9CEE14B8A8}|ForumApp.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1310208-1269-4BE3-A4DE-3F9CEE14B8A8}|ForumApp.csproj|c:\\users\\user-5\\documents\\github\\open-forum-project\\forumapp\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1310208-1269-4BE3-A4DE-3F9CEE14B8A8}|ForumApp.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1310208-1269-4BE3-A4DE-3F9CEE14B8A8}|ForumApp.csproj|c:\\users\\user-5\\documents\\github\\open-forum-project\\forumapp\\models\\forumthread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1310208-1269-4BE3-A4DE-3F9CEE14B8A8}|ForumApp.csproj|solutionrelative:models\\forumthread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1310208-1269-4BE3-A4DE-3F9CEE14B8A8}|ForumApp.csproj|c:\\users\\user-5\\documents\\github\\open-forum-project\\forumapp\\views\\forum\\thread.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1310208-1269-4BE3-A4DE-3F9CEE14B8A8}|ForumApp.csproj|solutionrelative:views\\forum\\thread.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C1310208-1269-4BE3-A4DE-3F9CEE14B8A8}|ForumApp.csproj|c:\\users\\user-5\\documents\\github\\open-forum-project\\forumapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1310208-1269-4BE3-A4DE-3F9CEE14B8A8}|ForumApp.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C1310208-1269-4BE3-A4DE-3F9CEE14B8A8}|ForumApp.csproj|c:\\users\\user-5\\documents\\github\\open-forum-project\\forumapp\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1310208-1269-4BE3-A4DE-3F9CEE14B8A8}|ForumApp.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C1310208-1269-4BE3-A4DE-3F9CEE14B8A8}|ForumApp.csproj|c:\\users\\user-5\\documents\\github\\open-forum-project\\forumapp\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1310208-1269-4BE3-A4DE-3F9CEE14B8A8}|ForumApp.csproj|solutionrelative:models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1310208-1269-4BE3-A4DE-3F9CEE14B8A8}|ForumApp.csproj|c:\\users\\user-5\\documents\\github\\open-forum-project\\forumapp\\views\\forum\\category.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C1310208-1269-4BE3-A4DE-3F9CEE14B8A8}|ForumApp.csproj|solutionrelative:views\\forum\\category.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C1310208-1269-4BE3-A4DE-3F9CEE14B8A8}|ForumApp.csproj|c:\\users\\user-5\\documents\\github\\open-forum-project\\forumapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1310208-1269-4BE3-A4DE-3F9CEE14B8A8}|ForumApp.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C1310208-1269-4BE3-A4DE-3F9CEE14B8A8}|ForumApp.csproj|c:\\users\\user-5\\documents\\github\\open-forum-project\\forumapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C1310208-1269-4BE3-A4DE-3F9CEE14B8A8}|ForumApp.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1310208-1269-4BE3-A4DE-3F9CEE14B8A8}|ForumApp.csproj|c:\\users\\user-5\\documents\\github\\open-forum-project\\forumapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1310208-1269-4BE3-A4DE-3F9CEE14B8A8}|ForumApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1310208-1269-4BE3-A4DE-3F9CEE14B8A8}|ForumApp.csproj|c:\\users\\user-5\\documents\\github\\open-forum-project\\forumapp\\views\\forum\\category.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1310208-1269-4BE3-A4DE-3F9CEE14B8A8}|ForumApp.csproj|solutionrelative:views\\forum\\category.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,36 +46,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Thread.cshtml",
+              "DocumentMoniker": "C:\\Users\\user-5\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\Views\\Forum\\Thread.cshtml",
+              "RelativeDocumentMoniker": "Views\\Forum\\Thread.cshtml",
+              "ToolTip": "C:\\Users\\user-5\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\Views\\Forum\\Thread.cshtml",
+              "RelativeToolTip": "Views\\Forum\\Thread.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T22:44:19.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ForumThread.cs",
+              "DocumentMoniker": "C:\\Users\\user-5\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\Models\\ForumThread.cs",
+              "RelativeDocumentMoniker": "Models\\ForumThread.cs",
+              "ToolTip": "C:\\Users\\user-5\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\Models\\ForumThread.cs",
+              "RelativeToolTip": "Models\\ForumThread.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T22:21:28.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\user-5\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\user-5\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAB0AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T21:06:04.491Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\user-5\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
               "ToolTip": "C:\\Users\\user-5\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\Models\\User.cs",
               "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAwBYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvxEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T02:02:19.445Z"
+              "WhenOpened": "2025-03-12T02:02:19.445Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Category.cshtml",
               "DocumentMoniker": "C:\\Users\\user-5\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\Views\\Forum\\Category.cshtml",
               "RelativeDocumentMoniker": "Views\\Forum\\Category.cshtml",
@@ -95,19 +122,8 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-11T23:18:35.132Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user-5\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\user-5\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T23:03:32.888Z"
+              "WhenOpened": "2025-03-11T23:18:35.132Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -117,43 +133,33 @@
               "RelativeDocumentMoniker": "Models\\Post.cs",
               "ToolTip": "C:\\Users\\user-5\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\Models\\Post.cs",
               "RelativeToolTip": "Models\\Post.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T18:28:06.611Z"
+              "WhenOpened": "2024-11-03T18:28:06.611Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\user-5\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Models\\Category.cs",
               "ToolTip": "C:\\Users\\user-5\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\Models\\Category.cs",
               "RelativeToolTip": "Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T18:26:14.845Z"
+              "WhenOpened": "2024-11-03T18:26:14.845Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ForumThread.cs",
-              "DocumentMoniker": "C:\\Users\\user-5\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\Models\\ForumThread.cs",
-              "RelativeDocumentMoniker": "Models\\ForumThread.cs",
-              "ToolTip": "C:\\Users\\user-5\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\Models\\ForumThread.cs",
-              "RelativeToolTip": "Models\\ForumThread.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAwAkAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T23:22:04.772Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\user-5\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\user-5\\Documents\\GitHub\\Open-Forum-Project\\ForumApp\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAACUAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T22:04:19.839Z",
               "EditorCaption": ""
