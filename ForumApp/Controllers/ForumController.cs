@@ -17,7 +17,7 @@ namespace ForumApp.Controllers
         public IActionResult Category(int id)
         {
             var category = _context.Categories
-                .Include(c => c.Threads)
+                .Include(c => c.ForumThreads)
                 .ThenInclude(t => t.Author) // Include author of each thread
                 .FirstOrDefault(c => c.Id == id);
 
@@ -33,7 +33,7 @@ namespace ForumApp.Controllers
         public IActionResult Thread(int id)
         {
             var thread = _context.ForumThreads
-                .Include(t => t.Posts)
+                .Include(t => t.Posts!)
                 .ThenInclude(p => p.Author) // Include author of each post
                 .FirstOrDefault(t => t.Id == id);
 
