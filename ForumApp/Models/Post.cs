@@ -5,11 +5,11 @@ public class Post
     public int Id { get; set; }
 
     [Required]
-    public string Content { get; set; }
+    public required string Content { get; set; }
     
-    public DateTime CreatedDate { get; set; }
+    public required DateTime CreatedDate { get; set; }
     
-    public int ThreadId { get; set; }
+    public int ForumThreadId { get; set; }
     public ForumThread ForumThread { get; set; }
 
     public int AuthorId { get; set; }
