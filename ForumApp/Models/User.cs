@@ -12,7 +12,7 @@ public class User
     [MaxLength(500)]
     public string? AvatarUrl { get; set; }
     
-    public ICollection<Post> Posts { get; set; }
+    public ICollection<Post>? Posts { get; set; }
 }
 
 public enum UserRole { Owner, Admin, Member }
