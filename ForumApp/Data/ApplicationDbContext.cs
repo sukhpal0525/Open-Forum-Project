@@ -35,7 +35,7 @@ namespace ForumApp.Data
             modelBuilder.Entity<ForumThread>()
                 .HasMany(t => t.Posts)
                 .WithOne(p => p.ForumThread)
-                .HasForeignKey(p => p.ThreadId);
+                .HasForeignKey(p => p.ForumThreadId);
 
 
             // Seed Data
