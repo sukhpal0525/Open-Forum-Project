@@ -8,10 +8,10 @@ public class User
     public required string Username { get; set; }
     
     public required UserRole Role { get; set; }  // Admin, Moderator, Member
-    
+
     [MaxLength(500)]
     public string? AvatarUrl { get; set; }
-    
+
     public ICollection<Post>? Posts { get; set; }
 }
 
