@@ -9,9 +9,9 @@ public class Post
     
     public required DateTime CreatedDate { get; set; }
     
-    public int ForumThreadId { get; set; }
-    public ForumThread ForumThread { get; set; }
+    public required int ForumThreadId { get; set; }
+    public required ForumThread ForumThread { get; set; }
 
-    public int AuthorId { get; set; }
-    public User Author { get; set; }
+    public required int AuthorId { get; set; }
+    public required User Author { get; set; }
 }
