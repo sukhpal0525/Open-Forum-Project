@@ -38,15 +38,19 @@ namespace ForumApp.Data
                 .HasForeignKey(p => p.ForumThreadId);
 
 
-            // Seed Data
+        // Seed Data
             modelBuilder.Entity<User>().HasData(
                 new User { Id = 1, Username = "Administrator", Role = UserRole.Admin },
                 new User { Id = 2, Username = "John", Role = UserRole.Member }
             );
+
+            // Insert Categories first
             modelBuilder.Entity<Category>().HasData(
                 new Category { Id = 1, Name = "General Discussion", Description = "Talk about anything here" },
                 new Category { Id = 2, Name = "Announcements", Description = "Official announcements from the team" }
             );
+
+            // Then insert ForumThreads that reference them
             modelBuilder.Entity<ForumThread>().HasData(
                 new ForumThread { Id = 1, Title = "Welcome to the Forum", RepliesCount = 5, ViewsCount = 100, CategoryId = 1, AuthorId = 1 },
                 new ForumThread { Id = 2, Title = "Forum Rules", RepliesCount = 3, ViewsCount = 50, CategoryId = 2, AuthorId = 2 }
